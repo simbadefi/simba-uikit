@@ -38,3 +38,14 @@ This project is built with Typescript and export all the relevant types.
 ## How to use the UIkit
 
 If you want to use components from the UIkit, check the [Storybook documentation](https://pancakeswap.github.io/pancake-uikit/)
+
+## Logo Locations
+### desktop logo is in
+src/widgets/Menu/icons/Logo.tsx
+
+
+How to update logo
+
+1. go to simba-uikit and run `yarn build && yalc publish`
+2. go to simba-frontend-farms and run `yalc update @pancakeswap-libs/uikit`
+
