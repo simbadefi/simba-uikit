@@ -343,7 +343,7 @@ var Icon$p = function (props) {
 
 var Icon$q = function (props) {
     return (React.createElement(Svg, __assign({ viewBox: "0 0 32 32" }, props),
-        React.createElement("image", { width: "32", height: "32", href: "images/mufasabnb.png" })));
+        React.createElement("image", { width: "32", height: "32", href: "images/bghome1.png" })));
 };
 
 var Icon$r = function (props) {
@@ -1860,7 +1860,7 @@ var Icon$O = function (props) {
 var Logo = function (_a) {
     var isDark = _a.isDark, props = __rest(_a, ["isDark"]);
     return (React.createElement(Svg, __assign({ viewBox: "0 0 205 26" }, props),
-        React.createElement("image", { width: "205", height: "26", href: isDark ? "images/mufasabnb.png" : "images/mufasabnb.png" })));
+        React.createElement("image", { width: "205", height: "26", href: isDark ? "images/logo.svg" : "images/logo.svg" })));
 };
 
 var Icon$P = function (props) {
