@@ -413,7 +413,7 @@ var Icon$u = function (props) {
 
 var Icon$v = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 90 90" }, props),
-        React__default['default'].createElement("image", { width: 90, height: 90, href: "images/logo.svg" })));
+        React__default['default'].createElement("image", { width: 90, height: 90, href: "images/mufasabnb.png" })));
 };
 
 var Icon$w = function (props) {
