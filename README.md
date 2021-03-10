@@ -49,4 +49,4 @@ How to update logo
 1. go to simba-uikit and run `yarn build && yalc publish`
 2. go to simba-frontend-farms and run `yalc update @pancakeswap-libs/uikit`
 
-test12
+#test123
