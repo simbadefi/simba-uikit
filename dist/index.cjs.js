@@ -356,7 +356,7 @@ var Icon$p = function (props) {
 
 var Icon$q = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 32 32" }, props),
-        React__default['default'].createElement("image", { width: "32", height: "32", href: "images/mufasabnb.png" })));
+        React__default['default'].createElement("image", { width: "32", height: "32", href: "images/logo.svg" })));
 };
 
 var Icon$r = function (props) {
@@ -413,7 +413,7 @@ var Icon$u = function (props) {
 
 var Icon$v = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 90 90" }, props),
-        React__default['default'].createElement("image", { width: 90, height: 90, href: "images/mufasabnb.png" })));
+        React__default['default'].createElement("image", { width: 90, height: 90, href: "images/egg/9.png" })));
 };
 
 var Icon$w = function (props) {
@@ -1873,7 +1873,7 @@ var Icon$O = function (props) {
 var Logo = function (_a) {
     var isDark = _a.isDark, props = __rest(_a, ["isDark"]);
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 205 26" }, props),
-        React__default['default'].createElement("image", { width: "205", height: "26", href: isDark ? "images/logo.svg" : "images/logo.svg" })));
+        React__default['default'].createElement("image", { width: "205", height: "26", href: isDark ? "images/mufasabnb.png" : "images/mufasabnb.png" })));
 };
 
 var Icon$P = function (props) {
