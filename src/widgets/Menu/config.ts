@@ -2,57 +2,57 @@ export const links = [
   {
     label: "Home",
     icon: "HomeIcon",
-    href: "/",
+    href: "https://www.mufasaswap.com",
   },
   {
-    label: "Trade",
+    label: "Exchange",
     icon: "TradeIcon",
     items: [
       {
         label: "Exchange",
-        href: "https://exchange.pancakeswap.finance",
+        href: "https://exchange.mufasaswap.com",
       },
-      {
-        label: "Liquidity",
-        href: "https://exchange.pancakeswap.finance/#/pool",
-      },
+      // {
+      //   label: "Liquidity",
+      //   href: "https://exchange.pancakeswap.finance/#/pool",
+      // },
     ],
   },
   {
     label: "Farms",
     icon: "FarmIcon",
-    href: "/farms",
+    href: "https://www.mufasaswap.com/farms",
   },
-  {
-    label: "Pools",
-    icon: "PoolIcon",
-    href: "/syrup",
-  },
-  {
-    label: "Lottery",
-    icon: "TicketIcon",
-    href: "/lottery",
-  },
-  {
-    label: "NFT",
-    icon: "NftIcon",
-    href: "/nft",
-  },
-  {
-    label: "Profile & Teams",
-    icon: "GroupsIcon",
-    items: [
-      {
-        label: "Leaderboard",
-        href: "/",
-      },
-      {
-        label: "YourProfile",
-        href: "/",
-      },
-    ],
-    calloutClass: "rainbow",
-  },
+  // {
+  //   label: "Pools",
+  //   icon: "PoolIcon",
+  //   href: "/syrup",
+  // },
+  // {
+  //   label: "Lottery",
+  //   icon: "TicketIcon",
+  //   href: "/lottery",
+  // },
+  // {
+  //   label: "NFT",
+  //   icon: "NftIcon",
+  //   href: "/nft",
+  // },
+  // {
+  //   label: "Profile & Teams",
+  //   icon: "GroupsIcon",
+  //   items: [
+  //     {
+  //       label: "Leaderboard",
+  //       href: "/",
+  //     },
+  //     {
+  //       label: "YourProfile",
+  //       href: "/",
+  //     },
+  //   ],
+  //   calloutClass: "rainbow",
+  // },
   {
     label: "Info",
     icon: "InfoIcon",
@@ -75,20 +75,20 @@ export const links = [
       },
     ],
   },
-  {
-    label: "IFO",
-    icon: "IfoIcon",
-    items: [
-      {
-        label: "Next",
-        href: "/ifo",
-      },
-      {
-        label: "History",
-        href: "/ifo/history",
-      },
-    ],
-  },
+  // {
+  //   label: "IFO",
+  //   icon: "IfoIcon",
+  //   items: [
+  //     {
+  //       label: "Next",
+  //       href: "/ifo",
+  //     },
+  //     {
+  //       label: "History",
+  //       href: "/ifo/history",
+  //     },
+  //   ],
+  // },
   {
     label: "More",
     icon: "MoreIcon",
@@ -117,11 +117,12 @@ export const socials = [
   {
     label: "Telegram",
     icon: "TelegramIcon",
-    items: [
-      {
-        label: "English",
-        href: "https://t.me/goosedefi",
-      },
+    href: " https://t.me/mufasaswap",
+    // items: [
+    //   {
+    //     label: "Telegram",
+    //     href: " https://t.me/mufasaswap",
+    //   },
       // {
       //   label: "Bahasa Indonesia",
       //   href: "https://t.me/PancakeSwapIndonesia",
@@ -162,20 +163,20 @@ export const socials = [
       //   label: "Français",
       //   href: "https://t.me/pancakeswapfr",
       // },
-      {
-        label: "Announcements",
-        href: "https://t.me/goosefinanceann",
-      },
+      // {
+      //   label: "Announcements",
+      //   href: "https://t.me/goosefinanceann",
+      // },
       // {
       //   label: "Whale Alert",
       //   href: "https://t.me/PancakeSwapWhales",
       // },
-    ],
+    // ],
   },
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/FinanceGoose",
+    href: "https://twitter.com/MufasaDefi",
   },
 ];
 
