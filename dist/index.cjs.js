@@ -356,7 +356,7 @@ var Icon$p = function (props) {
 
 var Icon$q = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 32 32" }, props),
-        React__default['default'].createElement("image", { width: "32", height: "32", href: "images/mufasabnb.png" })));
+        React__default['default'].createElement("image", { width: "32", height: "32", href: "images/logo.svg" })));
 };
 
 var Icon$r = function (props) {
@@ -413,7 +413,7 @@ var Icon$u = function (props) {
 
 var Icon$v = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 90 90" }, props),
-        React__default['default'].createElement("image", { width: 90, height: 90, href: "images/mufasabnb.png" })));
+        React__default['default'].createElement("image", { width: 90, height: 90, href: "images/egg/9.png" })));
 };
 
 var Icon$w = function (props) {
@@ -1873,7 +1873,7 @@ var Icon$O = function (props) {
 var Logo = function (_a) {
     var isDark = _a.isDark, props = __rest(_a, ["isDark"]);
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 205 26" }, props),
-        React__default['default'].createElement("image", { width: "205", height: "26", href: isDark ? "images/logo.svg" : "images/logo.svg" })));
+        React__default['default'].createElement("image", { width: "205", height: "26", href: isDark ? "images/mufasabnb.png" : "images/mufasabnb.png" })));
 };
 
 var Icon$P = function (props) {
@@ -1993,57 +1993,53 @@ var links = [
     {
         label: "Home",
         icon: "HomeIcon",
-        href: "/",
+        href: "https://www.mufasaswap.com",
     },
     {
-        label: "Trade",
+        label: "Exchange",
         icon: "TradeIcon",
         items: [
             {
                 label: "Exchange",
-                href: "https://exchange.pancakeswap.finance",
-            },
-            {
-                label: "Liquidity",
-                href: "https://exchange.pancakeswap.finance/#/pool",
+                href: "https://exchange.mufasaswap.com",
             },
         ],
     },
     {
         label: "Farms",
         icon: "FarmIcon",
-        href: "/farms",
+        href: "https://www.mufasaswap.com/farms",
     },
-    {
-        label: "Pools",
-        icon: "PoolIcon",
-        href: "/syrup",
-    },
-    {
-        label: "Lottery",
-        icon: "TicketIcon",
-        href: "/lottery",
-    },
-    {
-        label: "NFT",
-        icon: "NftIcon",
-        href: "/nft",
-    },
-    {
-        label: "Profile & Teams",
-        icon: "GroupsIcon",
-        items: [
-            {
-                label: "Leaderboard",
-                href: "/",
-            },
-            {
-                label: "YourProfile",
-                href: "/",
-            },
-        ],
-        calloutClass: "rainbow",
-    },
+    // {
+    //   label: "Pools",
+    //   icon: "PoolIcon",
+    //   href: "/syrup",
+    // },
+    // {
+    //   label: "Lottery",
+    //   icon: "TicketIcon",
+    //   href: "/lottery",
+    // },
+    // {
+    //   label: "NFT",
+    //   icon: "NftIcon",
+    //   href: "/nft",
+    // },
+    // {
+    //   label: "Profile & Teams",
+    //   icon: "GroupsIcon",
+    //   items: [
+    //     {
+    //       label: "Leaderboard",
+    //       href: "/",
+    //     },
+    //     {
+    //       label: "YourProfile",
+    //       href: "/",
+    //     },
+    //   ],
+    //   calloutClass: "rainbow",
+    // },
     {
         label: "Info",
         icon: "InfoIcon",
@@ -2066,20 +2062,20 @@ var links = [
             },
         ],
     },
-    {
-        label: "IFO",
-        icon: "IfoIcon",
-        items: [
-            {
-                label: "Next",
-                href: "/ifo",
-            },
-            {
-                label: "History",
-                href: "/ifo/history",
-            },
-        ],
-    },
+    // {
+    //   label: "IFO",
+    //   icon: "IfoIcon",
+    //   items: [
+    //     {
+    //       label: "Next",
+    //       href: "/ifo",
+    //     },
+    //     {
+    //       label: "History",
+    //       href: "/ifo/history",
+    //     },
+    //   ],
+    // },
     {
         label: "More",
         icon: "MoreIcon",
@@ -2109,59 +2105,15 @@ var socials = [
         icon: "TelegramIcon",
         items: [
             {
-                label: "English",
-                href: "https://t.me/goosedefi",
-            },
-            // {
-            //   label: "Bahasa Indonesia",
-            //   href: "https://t.me/PancakeSwapIndonesia",
-            // },
-            // {
-            //   label: "中文",
-            //   href: "https://t.me/PancakeSwap_CN",
-            // },
-            // {
-            //   label: "Tiếng Việt",
-            //   href: "https://t.me/PancakeSwapVN",
-            // },
-            // {
-            //   label: "Italiano",
-            //   href: "https://t.me/pancakeswap_ita",
-            // },
-            // {
-            //   label: "русский",
-            //   href: "https://t.me/pancakeswap_ru",
-            // },
-            // {
-            //   label: "Türkiye",
-            //   href: "https://t.me/pancakeswapturkiye",
-            // },
-            // {
-            //   label: "Português",
-            //   href: "https://t.me/PancakeSwapPortuguese",
-            // },
-            // {
-            //   label: "Español",
-            //   href: "https://t.me/PancakeswapEs",
-            // },
-            // {
-            //   label: "日本語",
-            //   href: "https://t.me/pancakeswapjp",
-            // },
-            // {
-            //   label: "Français",
-            //   href: "https://t.me/pancakeswapfr",
-            // },
-            {
-                label: "Announcements",
-                href: "https://t.me/goosefinanceann",
+                label: "Telegram",
+                href: " https://t.me/mufasaswap",
             },
         ],
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/FinanceGoose",
+        href: "https://twitter.com/MufasaDefi",
     },
 ];
 var MENU_HEIGHT = 64;

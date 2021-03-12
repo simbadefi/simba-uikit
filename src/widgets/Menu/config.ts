@@ -117,12 +117,11 @@ export const socials = [
   {
     label: "Telegram",
     icon: "TelegramIcon",
-    href: " https://t.me/mufasaswap",
-    // items: [
-    //   {
-    //     label: "Telegram",
-    //     href: " https://t.me/mufasaswap",
-    //   },
+    items: [
+      {
+        label: "Telegram",
+        href: " https://t.me/mufasaswap",
+      },
       // {
       //   label: "Bahasa Indonesia",
       //   href: "https://t.me/PancakeSwapIndonesia",
@@ -171,7 +170,7 @@ export const socials = [
       //   label: "Whale Alert",
       //   href: "https://t.me/PancakeSwapWhales",
       // },
-    // ],
+     ],
   },
   {
     label: "Twitter",
