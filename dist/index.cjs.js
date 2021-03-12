@@ -2103,12 +2103,7 @@ var socials = [
     {
         label: "Telegram",
         icon: "TelegramIcon",
-        items: [
-            {
-                label: "Telegram",
-                href: " https://t.me/mufasaswap",
-            },
-        ],
+        href: "https://t.me/mufasaswap",
     },
     {
         label: "Twitter",
